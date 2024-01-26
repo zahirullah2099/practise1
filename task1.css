@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{padding: 0;margin: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(16, 145, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container .login{
+    width: 30%;
+    height: 80%;
+    background-color: whitesmoke;
+}
+.login{
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+}
+.login h3{
+    
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.login input, a, p, button{
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+}
+.login input,  button{
+   padding: 10px;
+   outline: none;
+   border: 1px solid rgb(215, 211, 211);
+   border-radius: 5px;
+}
+.login-btn{
+    background-color: #0096e2;
+    color: whitesmoke;
+}
+.facebook-btn{
+    background-color: #316FF6;
+    color: whitesmoke;
+}
+.google-btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(90, 89, 89);
+}
+.link-text{
+    color:  #0000EE ;
+}
+button{
+    
+}
+button i { 
+    font-size: 15px; 
+    padding-right: 10px;
+}
+
+/* register form */
+ 
+.register{
+    width: 30%;
+    height: 88%;
+    background-color: whitesmoke;
+    padding: 10px 30px ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+}
+.register h3{
+    
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.register input, a, p, button{
+    display: block;
+    margin: 8px 0;
+    text-decoration: none;
+}
+.register input,  button{
+   padding: 10px;
+   outline: none;
+   border: 1px solid rgb(215, 211, 211);
+   border-radius: 5px;
+}
+ 
